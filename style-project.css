@@ -1,0 +1,56 @@
+header img, nav, header {
+    float: left;
+}
+
+header img{
+    height: 100px;
+}
+
+nav a{
+    line-height: 100px;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+header{
+    min-width: 100%;
+    background: aquamarine;
+    background-image: linear-gradient(blue, aquamarine);
+}
+
+main {
+    clear: both;
+    padding: 100px;
+    min-height: 80%;
+    border-top: 6px solid aquamarine;
+    border-bottom: 6px solid blue;
+    background: aquamarine;
+    background-image: linear-gradient(aquamarine, blue);
+}
+
+footer{
+    padding: 100px;
+    background: aquamarine;
+    background-image: linear-gradient(blue, aquamarine);
+    text-align: center;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cadetblue;
+}
+.firstitem{
+    background-color: yellowgreen;
+}
+
+#logo {
+    padding: 10px;
+}
+
+.maps {
+    padding: 40px;
+}
